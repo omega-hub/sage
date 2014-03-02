@@ -27,8 +27,8 @@ else()
 	
 		# Set module name and source files here
 		add_library(${MODULE_NAME} MODULE 
-			SageManager.h
-			SageManager.cpp
+			SageWindow.h
+			SageWindow.cpp
 			sage.cpp)
 
 		# Set the module library dependencies here
